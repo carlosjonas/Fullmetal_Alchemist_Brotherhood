@@ -9,7 +9,7 @@
 
 .cabecalho{
 	background-color: green;
-	width: 100%
+	width: 100%;
 }
 
 .cabecalho h1{
@@ -57,13 +57,11 @@
 /*SOCIAL-ICONS*/
 
 .social-icons{
-	/* Aqui eu fiz os icones irem pra esquerda*/
 	float: right;
 	padding-right: 15px;
 }
 
 .social-icons a{
-	/* Neste eu estilizei os links e espacei*/
 	color: #fff;
 	float: left;
 	margin-left: 12px;
@@ -88,4 +86,46 @@
 	width: 700px;
 	display: block;
 	margin: auto;
+}
+
+/* RODAPE */
+
+.rodape{
+	background-color: red;
+	padding-top: 15px;
+	padding-bottom: 40px;
+}
+
+.rodape li{
+	padding-right: 25px;
+	list-style-type: none;
+	padding-bottom: 15px;
+	float: right;
+}
+
+.rodape li a{
+	color: #9d9d9d;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.rodape li a:hover{
+	color: white;
+}
+
+.sobre{
+	text-align: justify;
+	color: white;
+	padding-bottom: 50px;
+
+}
+
+.sobre h2{
+	padding-left: 20px;
+}
+
+.sobre p{
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 20px;
 }
