@@ -1,56 +1,91 @@
+/* Definindo todas as minhas fontes para Verdana*/
+
 *{
 	font-family: verdana;
-	margin: 10px;
 
 }
 
-body{
-	background-color: gray;
-	margin: 10px;
+/*CABECALHO*/
+
+.cabecalho{
+	background-color: green;
+	width: 100%
 }
 
-header{
-	
+.cabecalho h1{
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-left: 20px;
 }
 
-#menu{
+.cabecalho p{
+	padding-left: 35px;
+
+}
+
+.cabecalho img{
+	display: block;
+	margin: 0px auto;
+	padding-bottom: 20px
+}
+
+/*MENU*/
+.menu{
 	background-color: red;
-	padding: 5px
+	padding-top: 15px;
+	padding-bottom: 40px;
 }
 
-ul li{
+.menu li{
 	display: inline;
-	margin-left: 70px;
+	padding-right: 25px;
+	list-style-type: none;
+	float: left;
+	padding-bottom: 15px;
 }
 
-ul li a {
-    padding: 2px 10px;
-    color: #333;
-    text-decoration: none;
+.menu li a{
+	color: #9d9d9d;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.menu li a:hover{
+	color: white;
+}
+
+/*SOCIAL-ICONS*/
+
+.social-icons{
+	/* Aqui eu fiz os icones irem pra esquerda*/
+	float: right;
+	padding-right: 15px;
+}
+
+.social-icons a{
+	/* Neste eu estilizei os links e espacei*/
+	color: #fff;
+	float: left;
+	margin-left: 12px;
+
 }
 
 
-h1{
-	margin-top: 15px;
+/*PRINCIPAL*/
+
+.principal h2{
+	padding-left: 20px;
 }
 
-h2{
-	margin-top: 25px;
+.principal p{
+	font-size: 25px;
+	text-align: justify;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
-p{
-	font-size: 22px;
-	margin: 20px;
+.principal img{
+	width: 700px;
+	display: block;
+	margin: auto;
 }
-
-img{
-	float: center;
-	padding: 10px;
-	width: 1225px;
-	height: 500px;
-}
-
-iframe{
-	
-}
-
