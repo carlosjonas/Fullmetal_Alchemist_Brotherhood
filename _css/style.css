@@ -8,11 +8,13 @@
 /*CABECALHO*/
 
 .cabecalho{
+	/* Aqui eu defino a largura e cor do cabeçalho*/
 	background-color: #1C1C1C;
 	width: 100%;
 }
 
 .cabecalho h1{
+	/* definindo o h1 do meu cabeçalho*/
 	color: white;
 	margin-top: 0px;
 	padding-top: 20px;
@@ -20,12 +22,14 @@
 }
 
 .cabecalho p{
+	/* estilizando meu paragrafo do cabeçalho*/
 	color: white;
 	padding-left: 35px;
 
 }
 
 .cabecalho img{
+	/* Aqui eu coloco minha imagem centralizada*/
 	display: block;
 	margin: 0px auto;
 	padding-bottom: 20px
@@ -33,12 +37,14 @@
 
 /*MENU*/
 .menu{
+	/*definindo a cor e preenchimento do meu menu */
 	background-color: red;
 	padding-top: 15px;
 	padding-bottom: 40px;
 }
 
 .menu li{
+	/* Aqui eu coloco meu menu na horizontal */
 	display: inline;
 	padding-right: 25px;
 	list-style-type: none;
@@ -47,6 +53,7 @@
 }
 
 .menu li a{
+	/*estilizando o link do menu*/
 	color: #9d9d9d;
 	text-decoration: none;
 	font-size: 20px;
@@ -59,6 +66,7 @@
 /*SOCIAL-ICONS*/
 
 .social-icons{
+	/* Aqui eu coloco os icones para contato*/ 
 	float: right;
 	padding-right: 15px;
 }
@@ -74,21 +82,24 @@
 /*PRINCIPAL*/
 
 .principal h1{
-
+	/*Esse h1 só serve para a página de aberturas e  encerramentos já que ´são os únicos h1 que tem no conteúdo principal*/
 	padding-left: 20px;
 }
 
 .principal h2{
+	/* padronização dos h2 para descolar da tela*/
 	padding-left: 20px;
 }
 
 .principal iframe{
+	/* este iframe também pertence ao aberturas, só coloco meus iframes centralizados*/
 	display: block;
 	margin: auto;
 	padding-bottom: 20px
 }
 
 .principal p{
+	/* estilizando meus parágrafos, só ajusto a fonte e aplico um preenchimento básico*/
 	font-size: 25px;
 	text-align: justify;
 	padding-left: 30px;
@@ -96,6 +107,7 @@
 }
 
 .principal img{
+	/* padronização das imagens para uma certa largura */
 	width: 700px;
 	display: block;
 	margin: auto;
@@ -104,12 +116,14 @@
 /* RODAPE */
 
 .rodape{
+	/* no rodape eu deixo a mesma cor do cabeçalho para combinação de cores */
 	background-color: #1C1C1C;
 	padding-top: 15px;
 	padding-bottom: 40px;
 }
 
 .rodape li{
+	/*Aqui eu utilizo os mesmos itens do menu e flutuam a direita*/
 	padding-right: 25px;
 	list-style-type: none;
 	padding-bottom: 15px;
@@ -127,6 +141,7 @@
 }
 
 .sobre{
+	/* esse sobre é um pouco das minhas palavras e sobre mim*/
 	text-align: justify;
 	color: white;
 	padding-bottom: 50px;
